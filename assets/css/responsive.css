@@ -1,0 +1,147 @@
+/* ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .card,
+    .link-setting,
+    .footer-line {
+        width: 100%;
+    }
+
+    .footer-grid {
+        margin: .5rem auto;
+    }
+
+    .footer-policy {
+        padding-bottom: .5rem;
+    }
+
+}
+
+/* iPhone  6, 7, 8 plus */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .gird-mobile {
+        padding: 0;
+    }
+
+    .card {
+        width        : 100%;
+        padding      : 0;
+        margin       : 4rem auto 1.5rem;
+        border-radius: unset;
+    }
+
+    .card-body {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .card-body>h4 {
+        font-size: 1.3rem;
+    }
+
+    .link-form-sign,
+    .link-setting {
+        width  : 100%;
+        padding: 0;
+    }
+
+    .footer-setting {
+        margin   : 0.5rem 0.5rem;
+        font-size: .8rem;
+    }
+
+    .footer-bottom h6 {
+        font-size: .8rem;
+    }
+
+}
+
+/* iPhone  6, 7, 8 */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .gird-mobile {
+        padding: 0;
+    }
+
+    .card {
+        width        : 100%;
+        padding      : 0;
+        margin       : 4rem auto 1.5rem;
+        border-radius: unset;
+    }
+
+    .card-body {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .card-body>h4 {
+        font-size: 1.2rem;
+    }
+
+    .link-form-sign,
+    .link-setting {
+        width  : 100%;
+        padding: 0;
+    }
+
+    .link-setting ul li>a {
+        font-size  : 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .footer-setting {
+        margin   : 0.5rem 0.5rem;
+        font-size: .8rem;
+    }
+
+    .footer-bottom h6 {
+        font-size: .8rem;
+    }
+
+}
+
+/* iPhone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .gird-mobile {
+        padding: 0;
+    }
+
+    .card {
+        width        : 100%;
+        padding      : 0;
+        margin       : 4rem auto 1.5rem;
+        border-radius: unset;
+    }
+
+    .card-body {
+        padding: 2.5rem 1rem;
+    }
+
+    .card-body>h4 {
+        font-size: 1rem;
+    }
+
+    .link-form-sign,
+    .link-setting {
+        width  : 90%;
+        padding: 0;
+    }
+
+    .link-setting ul li>a {
+        font-size  : 0.875rem;
+        line-height: 1.25rem;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .footer-setting {
+        margin   : 0.5rem 0.5rem;
+        font-size: .7rem;
+    }
+
+    .footer-bottom h6 {
+        font-size: .7rem;
+    }
+}
